@@ -1,9 +1,9 @@
 # python :
 ###### Text Encryptor 
 
-#Packages, Modules: <br />
-###Package: Cryptography // $ pip install cryptography <br />
-###Modules: Random, String, Fernet <br />
+# Packages, Modules: <br />
+### Package: Cryptography // $ pip install cryptography <br />
+### Modules: Random, String, Fernet <br />
 
 ### How it works:
 Use of random to generate an alphanumerical password (+symbols, letters are also can be capital and non capital) comprised of 12 characters <br />
