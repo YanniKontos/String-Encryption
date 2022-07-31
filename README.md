@@ -1,8 +1,7 @@
 # Encryptor -
 
 # Packages, Modules: <br />
-### Package: Cryptography <br />
-### $ pip install cryptography 
+### Package: Cryptography // $ pip install cryptography 
 ### Modules: Random, String, Fernet <br />
 
 ### How it works:
