@@ -1,4 +1,4 @@
-# Text Encryptor :
+# Text Encryptor -
 
 # Packages, Modules: <br />
 ### Package: Cryptography // $ pip install cryptography <br />
