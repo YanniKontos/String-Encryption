@@ -25,11 +25,10 @@ if encryption_choice == 'Y':
         print('Your encryption key is:', encryption_key)
 
         option_two = input('would you like to decrypt your password? if yes, input your encryption key, if no, [N]')
-        if option_two == "b'tYIuC3cvs4-BxBWsTihmIs70fOqJxqiMfSWdF7Vpi3Q='":
+        if option_two == str(encryption_key):
             print('your password is:', pwd)
-        elif option_two == 'N':
+        else:
             print('your password has not been decrypted')
-
     inputted_password()
 
 elif encryption_choice == 'N':
