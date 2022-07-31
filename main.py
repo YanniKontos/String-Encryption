@@ -26,7 +26,7 @@ if encryption_choice == 'Y':
 
         option_two = input('would you like to decrypt your password? if yes, input your encryption key, if no, [N]')
         if option_two == str(encryption_key):
-            print('your password is:', pwd)
+            print('your decrypted password is:', decrypted_pwd)
         else:
             print('your password has not been decrypted')
     inputted_password()
@@ -52,7 +52,7 @@ elif encryption_choice == 'N':
         decrypted_password = fernet.decrypt(encrypted_password).decode()
         # generated password now decrypted
 
-        print('Your generated password is:', password_string)
+        print('Your decrypted generated password is:', decypted_password)
         print('Your password encrypted is:', encrypted_password)
 
     create_password()
